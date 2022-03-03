@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+
+#Script used in order to parse out metaproteome mapping output files for unique, non-unique, and non-unique conserved peptide hits (see manuscript for more details).
+
 #PYTHON SCRIPT 
 #written by: Richard Wolfe 
 #
