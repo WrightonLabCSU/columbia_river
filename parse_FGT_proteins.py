@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 #PYTHON SCRIPT 
-#written by: Richard Wolfe
+#written by: Richard Wolfe 
 #
 #to run type: python make_5_column_feature_file.py -s <scaffold.fa> -p <prodigal protein file> ...
 #         or: ./single_copy_genes.py attributes
