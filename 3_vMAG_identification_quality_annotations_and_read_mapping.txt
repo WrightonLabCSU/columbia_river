@@ -8,7 +8,6 @@ Cluster_genomes_5.1.pl -f unclustered_viruses_ge10kb.fasta -c 85 -i 95
 #First we remove "bad" characters from fasta of concatenated, clustered viruses ge10kb:
 DRAM-v.py remove_bad_characters -i clustered_vMAGs_95-85.fasta -o clustered_vMAGs_95-85_nobadchars.fasta
 
-
 #Then we remove bad characters from the concatenated VirSorter tab output files:
 DRAM-v.py remove_bad_characters -v viral-affi-contigs-for-dramv.tab -o viral-affi-contigs-for-dramv_nobadchars.tab
 
