@@ -1,4 +1,4 @@
-#bin/bash!
+#!/bin/bash
 #Genome Binning
 #AMPHORA2
 
