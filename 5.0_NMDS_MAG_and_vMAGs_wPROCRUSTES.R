@@ -12,18 +12,16 @@ library(extrafont)
 
 
 #################
-#Normalized, JGI only for viruses first
-
 
 setwd('/Volumes/GoogleDrive/My Drive/University/Wrighton Lab; PhD/Columbia_River_Hyporheic_Zone/NMDS/v2')
 
-virus<-read.table('28_samp_vir_t.txt', header=TRUE, sep="\t", check.names=TRUE)
+virus<-read.table('5.1_28_samp_vir_t.txt', header=TRUE, sep="\t", check.names=TRUE)
 
-host<-read.table('28_samp_host_t.txt', header=TRUE, sep="\t", check.names=TRUE)
+host<-read.table('5.2_28_samp_host_t.txt', header=TRUE, sep="\t", check.names=TRUE)
 
-CHEM<-read.table('28samp_geochem_t.txt', header=TRUE, sep="\t", check.names=TRUE)
+CHEM<-read.table('5.3_28samp_geochem_t.txt', header=TRUE, sep="\t", check.names=TRUE)
 
-CHEMvar<-read.table('28samp_geochem_var_t.txt', header=TRUE, sep="\t", check.names=TRUE)
+CHEMvar<-read.table('5.4_28samp_geochem_var_t.txt', header=TRUE, sep="\t", check.names=TRUE)
 
 
 ###############MRPP and ANOSIM
