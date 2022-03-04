@@ -6,6 +6,10 @@ do
 sickle pe -f "$element"_01.fastq -r "$element"_02.fastq -t sanger -o  R1_"$element"_trimmed.fastq -p R2_"$element"_trimmed.fastq -s "$element"_trimmed_out.fastq
 done
 
+#After trimming, reads were rarefied in order to achieve equal read depth across both deeply sequenced and shallow sequenced datasets for comparisons.
+reformat.sh -in1=forward_reads -in2=reverse_reads -out1=forward.subsampled_10148883_1234.fastq -out2=reverse.subsampled_10148883_1234.fastq -samplereadstarget=10148883 -sampleseed=1234
+
+
 #Takes in a tab-delim file where column A contains read paths for trimmed reads and column B is the sample ID.
 
 while read a b
