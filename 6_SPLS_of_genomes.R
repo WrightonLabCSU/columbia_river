@@ -2,14 +2,13 @@
 library(ggplot2)
 library(pls)
 
-setwd("/Volumes/Macintosh HD/Users/josue.rodriguez/Google Drive/University/Wrighton Lab; PhD/Viral Predation, More than meets the eye/paper_figures/figure_xx_viral_hosts/4.SPLS/rarefied_to_deep_host_and_virus_111_virus") #whereve you are going to work. VIP has to be here.
-
-source("/Volumes/Macintosh HD/Users/josue.rodriguez/Google Drive/University/Wrighton Lab; PhD/Viral Predation, More than meets the eye/paper_figures/figure_xx_viral_hosts/4.SPLS/VIP.R") ## This is a custom script  to compute VIPs, has to be in the same directory as this script (or this path has to be changed)
-
+source("6.1_VIP.R") ## This is a custom script  to compute VIPs, has to be in the same directory as this script (or this path has to be changed)
 
 ##### Load OTU data. In my case, this contains all viruses with non zero abundances.
 
-all_data_vOTU<-read.csv("host_virus_or_both.csv",header=T) #Input is abundance tables for either the hosts, the viruses, or a combination of both.
+all_data_vOTU<-read.csv("6.2_SPLS_host_102_and_virus_111_deep_sequencing_relative_abund_combined.csv",header=T) #Input is abundance tables for either the hosts, the viruses, or a combination of both.
+all_data_vOTU<-read.csv("6.3_SPLS_102_hosts_relative_abund_deepsequencing.csv",header=T) #Input is abundance tables for either the hosts, the viruses, or a combination of both.
+all_data_vOTU<-read.csv("6.4_SPLS_111_viruses_relative_abund_deep_sequencing",header=T) #Input is abundance tables for either the hosts, the viruses, or a combination of both.
 
 # By default, R doesn't remove the first column if it has an ID, so we do it instead
 row.names(all_data_vOTU)<-all_data_vOTU[,1]
@@ -21,7 +20,7 @@ dim(all_data_vOTU) # this gives the matrix dimension, so 28 vOTUs and 30 samples
 all_data_vOTU<-t(all_data_vOTU) #transpose
 
 ##### Load metabolites/geochemistry data. Mine has 31 samples and these are rows.
-metabolite<-read.csv("/Volumes/Macintosh HD/Users/josue.rodriguez/Google Drive/University/Wrighton Lab; PhD/Viral Predation, More than meets the eye/paper_figures/figure_xx_viral_hosts/4.SPLS/rarefied_to_deep_host_and_virus_111_virus/10_samples_geochemistry.csv",header=T)
+metabolite<-read.csv("6.5_SPLS_10_samples_geochemistry.csv",header=T)
 
 #same as before, write in the row names correctly.
 row.names(metabolite)<-metabolite[,1]
