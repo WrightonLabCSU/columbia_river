@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 
-#Script used in order to parse out metaproteome mapping output files for unique, non-unique, and non-unique conserved peptide hits (see manuscript for more details).
+#Script used in order to parse out metaproteome mapping output files for unique, non-unique, and non-unique conserved peptide hits (see manuscript for more details). The input file used for this script is provided in github and called: 4_EMSL_49495_Froze_Core_2015_FirstHitsResults.txt
 
 #PYTHON SCRIPT 
 #written by: Richard Wolfe 
