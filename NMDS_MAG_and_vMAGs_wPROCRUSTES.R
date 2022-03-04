@@ -17,13 +17,13 @@ library(extrafont)
 
 setwd('/Volumes/GoogleDrive/My Drive/University/Wrighton Lab; PhD/Columbia_River_Hyporheic_Zone/NMDS/v2')
 
-virus<-read.table('viral_genomes.txt', header=TRUE, sep="\t", check.names=TRUE)
+virus<-read.table('28_samp_vir_t.txt', header=TRUE, sep="\t", check.names=TRUE)
 
-host<-read.table('host_genomes.txt', header=TRUE, sep="\t", check.names=TRUE)
+host<-read.table('28_samp_host_t.txt', header=TRUE, sep="\t", check.names=TRUE)
 
-CHEM<-read.table('28samp_geochem.txt', header=TRUE, sep="\t", check.names=TRUE)
+CHEM<-read.table('28samp_geochem_t.txt', header=TRUE, sep="\t", check.names=TRUE)
 
-CHEMvar<-read.table('28samp_geochem_variables.txt', header=TRUE, sep="\t", check.names=TRUE)
+CHEMvar<-read.table('28samp_geochem_var_t.txt', header=TRUE, sep="\t", check.names=TRUE)
 
 
 ###############MRPP and ANOSIM
