@@ -13,8 +13,6 @@ library(extrafont)
 
 #################
 
-setwd('/Volumes/GoogleDrive/My Drive/University/Wrighton Lab; PhD/Columbia_River_Hyporheic_Zone/NMDS/v2')
-
 virus<-read.table('5.1_28_samp_vir_t.txt', header=TRUE, sep="\t", check.names=TRUE)
 
 host<-read.table('5.2_28_samp_host_t.txt', header=TRUE, sep="\t", check.names=TRUE)
