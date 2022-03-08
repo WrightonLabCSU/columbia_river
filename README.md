@@ -12,10 +12,11 @@ Rivers have a significant role in global carbon and nitrogen cycles, serving as 
 
 Josué A. Rodríguez-Ramos1, Mikayla A. Borton1,2, Bridget B. McGivern1, Garrett J. Smith3, Lindsey M. Solden1, Michael Shaffer1, Rebecca A. Daly1, Samuel O. Purvine4, Carrie D. Nicora2, Elizabeth K. Eder4, Mary Lipton4, David W. Hoyt4, James C. Stegen2, and Kelly C. Wrighton1* 
 
-1 Department of Soil and Crop Sciences, Colorado State University, Fort Collins, CO, USA
-2 Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA
-3 Department of Microbiology, Radboud University, Nijmegen, Netherlands
-4 Environmental and Biological Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA, USA
+1. Department of Soil and Crop Sciences, Colorado State University, Fort Collins, CO, USA
+2. Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA
+3. Department of Microbiology, Radboud University, Nijmegen, Netherlands
+4. Environmental and Biological Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA, USA
 
-*Corresponding author
+\*Corresponding author
+
 Kelly.Wrighton@colostate.edu 
