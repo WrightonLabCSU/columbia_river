@@ -1,7 +1,7 @@
 
 #!/usr/bin/python
 
-##This is in-house script that was used for read mapping of vMAGs and MAGs using the parameters mentioned in steps 2.0 and 3.0
+##This is in-house script that was used for read mapping of vMAGs and MAGs using the parameters mentioned in steps 2.0 and 3.0.
 
 #PYTHON SCRIPT 
 #written by: Richard Wolfe
