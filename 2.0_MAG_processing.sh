@@ -1,5 +1,5 @@
 #Genome Binning 
-#This takes a list of sample names and is run in the directory where you have assembled scaffolds and the reads mapped back to the assemblies. runMetaBat.sh is the same as Metabat, but in addition it runs samtools view sam to bam conversion, and then samtools sort on that bam file for sorted bam. In order to get a bam file with coverages, an in-house pipeline called QuickLooks was used, and this can be found on 2.1
+#This takes a list of sample names and is run in the directory where you have assembled scaffolds and the reads mapped back to the assemblies. runMetaBat.sh is the same as Metabat, but in addition it runs samtools view sam to bam conversion, and then samtools sort on that bam file for sorted bam. In order to get a bam file with coverages, an in-house pipeline called QuickLooks was used with default settings, and this can be found on 2.1
 runMetaBat.sh --verysensitive "$element"_scaffolds.fa "$element".sorted.bam
 
 #AMPHORA2 was run with in-house pipeline that uses AMPHROA2. Command is below and script details are in 2.2.
