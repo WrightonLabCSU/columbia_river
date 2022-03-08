@@ -22,5 +22,5 @@ done
 exit
 
 ##Rarefying reads
-#After trimming, reads were rarefied in order to achieve equal read depth across both deeply sequenced and shallow sequenced datasets for comparisons.
+#After trimming, reads were rarefied in order to achieve equal read depth across both deeply sequenced and shallow sequenced datasets for comparisons of relative abundances of MAGs and vMAGs. Rarefied reads were used for read mapping later on. See manuscript for details.
 reformat.sh -in1=forward_reads -in2=reverse_reads -out1=forward.subsampled_10148883_1234.fastq -out2=reverse.subsampled_10148883_1234.fastq -samplereadstarget=10148883 -sampleseed=1234
