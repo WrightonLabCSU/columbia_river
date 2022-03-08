@@ -17,6 +17,4 @@ Josué A. Rodríguez-Ramos1, Mikayla A. Borton1,2, Bridget B. McGivern1, Garrett
 3. Department of Microbiology, Radboud University, Nijmegen, Netherlands
 4. Environmental and Biological Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA, USA
 
-\*Corresponding author
-
-Kelly.Wrighton@colostate.edu 
+\*Corresponding author: Kelly Wrighton
