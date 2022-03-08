@@ -27,5 +27,5 @@ DRAM-v.py distill -i DRAMv_output/annotations.tsv -o /DRAMv_distill
 #After both hosts and viruses were acquired, we then run VirHostMatcher on viral and microbial genomes to determine host predictions:
 python /opt/VirHostMatcher/vhm.py -v virus_genomes_dir -b host_genomes_dir -o output_virhostmatcher_results
 
-#Read mapping for relative abundances of vMAGs:
+#Read mapping for relative abundances of vMAGs. Script map_reads_fasta_abundance.py is available in 2.2 above and was the same used for MAGs with different parameters:
 map_reads_fasta_abundance.py -f clustered_vMAGs_95-85_nobadchars.fasta -r reads_list.txt -n reads_names.txt -m 15 -u T -p 90 -t output_abundances.txt --min_coverage 2 --min_percent_contig_coverage 75
