@@ -19,3 +19,5 @@ protpipeliner.py -i full_tree_seqs_aligned_trimmed.fasta -b 100 -m none -a T -t 
 
 #Mapping of metagenomic reads to MAGs to calculate relative abundance. -f is concatenated genomes file. -r is list of read locations. -n is names of each read set. Script map_reads_fasta_abundance.py can be found here: XXX.
 python /ORG-Data/scripts/map_reads_fasta_abundance.py -f 102_genomes_concatenated.fasta -r reads_list.txt -n reads_names.txt -m 7 -u T -p 40 -t doutput_mapping_95_75_102_GenomesAbund_table.txt --min_coverage 3 --min_percent_contig_coverage 75
+
+##Python script above is a custom in-house script written by Richard Wolfe that can be found below.
